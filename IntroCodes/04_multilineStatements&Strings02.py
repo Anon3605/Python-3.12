@@ -34,10 +34,11 @@ def name(str1="",
           Your last name is : {str3}
           Your full name will be {str1} {str2} {str3}""")
 
-ans=int(input("Wanna see Multiline Statements(01) or Mulline Strings(02): "))
-if ans==1 \
+ans=input("Wanna see Multiline Statements(1) or Mulline Strings(2): ")
+if ans=="1" \
     or \
-    ans==2:
+    ans=="2":
+    ans=int(ans)
     if ans==1:
         print("Enter 3 values with spaces")
         x=[int(i) for i in input().split()]
