@@ -32,7 +32,9 @@ print("There are two way to use multiline statements:")
 print("".join(str(i+1)+". "+listA[i]+"\n" for i in range(2)))
 
 choice=takeOptions()
-
+if choice==-1:
+    raise ValueError("OOPss!!! Wrong Input!!!")
+print(choice)
 time.sleep(1)
 print(f"What is {listA[choice]} newline character?")
 time.sleep(1)
