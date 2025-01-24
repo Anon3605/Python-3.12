@@ -1,7 +1,8 @@
 import time
 print("Here are 3 topics in short explained:")
 time.sleep(1)
-print("Numbers, Collections & Callables")
+print("Numbers, Collections & Callables\n")
+time.sleep(1)
 print("""Numbers are 2 types:
 01.Integral
     --> Integers
@@ -10,8 +11,9 @@ print("""Numbers are 2 types:
     --> Float (Double in C)
     --> Complex
     --> Decimals
-    --> Fractions""")
+    --> Fractions\n""")
 
+time.sleep(1)
 print("""Callables are many-typed:
 Callables are something which can be called in a program.
 --> User-Defined Function
@@ -20,14 +22,14 @@ Callables are something which can be called in a program.
 --> Instance Methods
 --> Class Instances (--call__())
 --> Built-in Functions (len(), open(), close())
---> Built-int methods (list_name.append(value))""")
-
+--> Built-int methods (list_name.append(value))\n""")
+time.sleep(1)
 print("""Singleton also known as \'Single Instance\'
 Singletons ensures a class has only one instance and provides one global
 point of access to that instances.
 --> None
 --> NotImplimented
---> Ellipsis(...)""")
+--> Ellipsis(...)\n""")
 
 print("""Collections have 3 types:
 01. Sequences
