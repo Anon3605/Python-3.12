@@ -18,8 +18,15 @@ For this code we can use id(variable_name) to find out the memory location which
 will be in a decimal number, to convert in to hwx we can use built in hexadecimal
 convertor called hex()
 Example: id(variable_name) or for hexadecimal, hex(id(variable_name))""")
-print("Output for the varibles we get:") 
+print("Output for the variables we get:") 
 
-print(f"Decimal value is {id(variable01)} and hex is {hex(id(variable01))}")
-print(f"Decimal value is {id(variable02)} and hex is {hex(id(variable02))}")
-print(f"Decimal value is {id(variable03)} and hex is {hex(id(variable03))}")
+print(f"For Variable01 decimal value is {id(variable01)} and hex is {hex(id(variable01))}")
+print(f"For Variable02 decimal value is {id(variable02)} and hex is {hex(id(variable02))}")
+print(f"For Variable03 decimal value is {id(variable03)} and hex is {hex(id(variable03))}\n")
+
+print("Note: Variables are memory references\n")
+print("The whole process is here:")
+print("01. Everything in python are called object")
+print("02. object01, object02, object03 ... object0n are stored in various memory locations")
+print("    The whole memory location section where the objects are stored, called heap")
+print("03. Retrieving objects from the heap is taken care by the Python Memory Manager")

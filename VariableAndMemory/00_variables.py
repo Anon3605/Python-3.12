@@ -1,6 +1,6 @@
 print("To store something we use variable")
 print("It can be string, integer, boolean, float or etc")
-listA=["Variable & Memory", "Variables?", "Memory Management", 
+listA=["Variable & Memory", "Variables?",
        "Reference Counting", "Garbage Collection", 
        "Dynamic+Static Typing", "Mutability and Immutability", 
        "Shared REfences", "Variable Equality", 
